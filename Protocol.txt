@@ -1,0 +1,44 @@
+From Cient:
+	AUTH-USERNAME
+		<Username> 
+	AUTH-PASSWORD 
+		<PassWord>
+ 	
+ 	LOGOUT
+	WHOELSE
+
+	MESSAGE 
+		<Username> 
+		<Message>
+
+	BROADCAST
+		<Message>
+
+
+From Server:
+	
+	AUTH-USERNAME-SUCC
+		<Info>
+	AUTH-USERNAME-FAIL
+		<Info>
+	AUTH-PASSWORD-SUCC
+		<Info>
+	AUTH-PASSWORD-FAIL
+		<Info>
+
+	WHOELSE 
+		<Info>
+
+	MESSAGE 
+		<Info>
+	
+	BROADCAST
+		<Info>
+	
+	ERROR
+		<Info>
+
+
+hans falcon
+yoda wise
+
